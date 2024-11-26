@@ -9,13 +9,13 @@ import { FaPlus } from "react-icons/fa6";
 
 const Faqs = () => {
   return (
-    <div className="bg-transparent mx-16 my-16 py-10  ">
+    <div className="bg-transparent max-mobile-3:mx-8 mx-16 my-16 py-10  ">
       <div className="border-gray-600 border p-7 rounded-xl">
         <h1 className="text-4xl font-semibold my-4 text-center border-gray-600">
           <span className="text-yellow-400 "> FAQs</span>
         </h1>
         <div className="flex max-mobile-2:w-full  border-black justify-center items-center">
-          <Accordion type="single" collapsible className="text-white w-1/2">
+          <Accordion type="single" collapsible className="text-white max-img:w-full w-1/2">
             <AccordionItem value="item-1">
               <AccordionTrigger>How do I get a referral code?</AccordionTrigger>
               <AccordionContent>
