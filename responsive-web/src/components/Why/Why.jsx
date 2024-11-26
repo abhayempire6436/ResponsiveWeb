@@ -14,7 +14,7 @@ const Why = () => {
     ];
 
   return (
-    <div className=" text-white max-img:px-10 px-20 py-8 shadow-lg">
+    <div className=" text-white max-img:px-10 mt-20 px-20 py-8 shadow-lg">
       <h2 className="text-4xl max-img:my-10 font-semibold mb-4">
         Why <span className="text-yellow-400">MoonEX</span>?
       </h2>

@@ -30,7 +30,7 @@ const Features = () => {
     ];
 
   return (
-    <div className='p-16'>
+    <div className='p-16 mt-12'>
         <div>
             <h1 className='text-4xl font-semibold text-white text-center'>Our <span className='text-yellow-400'> Features</span></h1>
 
